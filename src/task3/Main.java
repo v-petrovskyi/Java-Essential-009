@@ -8,8 +8,9 @@ public class Main {
         dictionary.add("puddles","калюжі");
         dictionary.add("hailstones","град");
         dictionary.add("raindrops","краплі дощу");
-        System.out.println("puddles - " + dictionary.get("puddles"));
+        System.out.println(dictionary.get(1));
         System.out.println("кількість слів у словнику: " + dictionary.getLength());
+        System.out.println(dictionary);
 
     }
 }
